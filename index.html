@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1">
+            <div data-role="header">
+                <h1>Moodle WIKI</h1>
+            </div>
+            <div data-role="content">
+                <img src="images/modle.jpg" width="200" style="display: block; margin: 0 auto" />
+                <h5>Tutorial membuat activity wiki di moodle</h5>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="fade" data-icon="home">home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-transition="fade" data-icon="grid">menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-transition="fade" data-icon="info">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page2">
+            <div data-role="header">
+                <h1>Menu</h1>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-inset="true" data-theme="b">
+                    <li>
+                        <a href="#page3"><img src="images/reading.png" class="ui-li-thumb" width="80" height="80">Pendahuluan</a>
+                    </li>
+                    <li>
+                        <a href="#page4"><img src="images/tutorial.png" class="ui-li-thumb" width="80" height="80">Membuat Activity wiki</a>
+                    </li>
+                    <li>
+                        <a href="#page6"><img src="images/videoicon.png" class="ui-li-thumb" width="80" height="80">Video tutorial</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-icon="info">info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page3">
+            <div data-role="header">
+                <h1>PENDAHULUAN</h1>
+            </div>
+            <div data-role="content">
+                <span>Text</span>
+                <h3>Tujuan Pemblajaran </h3>
+                <h5>. Dapat membuat membuat dan memahami activity wiki pada Moodle </h5>
+                <h3>Deskripsi Wiki</h3>
+                <img src="images/wiki.png" width="200" style="display: block; margin: 0 auto"
+                />
+                <h5>moodle adalah salah satu aplikasi yang cocok digunakan dalam proses pembelajaran
+                    yang berlansung secara online/offline berbasis web. Kecocokan penggunaan moodle dalam
+                    proses pembelajaran yang berlangsung secara online/offline berbasis web dapat ditinjau
+                    dari segi penggunaannya baik bagi seorang guru mapun siswa, yakni adanya fasilitas
+                    untuk menyampaikan bahan ajar bagi guru dan sekaligus sebagai sumber belajar bagi
+                    siswa serta adanya fasilitas untuk mengukur tingkat aktivitas belajar siswa dalam
+                    pembelajaran berbasis web bagi guru dan sekaligus bagi siswa untuk mengukur hasil
+                    belajarnya. Pada moodle terdapat fitur activity wiki yaitu student dan dosen dapat
+                    secara kolaboratif menulis dokumen web tanpa mengetahui bahasa html, langsung dari
+                    web browser. Hasilnya dapat berupa hasil kreativitas kelas, kelompok ataupun individu.</h5>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-icon="info">info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page4">
+            <div data-role="header">
+                <h1>Membuat Moodle Wiki</h1>
+            </div>
+            <div data-role="content">
+                <h5>1. Klik add new activity or resources dan pilih  “wiki”</h5>
+                <img src="images/1.JPG"
+                width="200" />
+                <h5>2. Tulis nama wiki</h5>
+                <h5>3. Tuliskan ringkasan (deskripsi) wiki yang akan dibuat</h5>
+                <img src="images/2.JPG"
+                width="200" />
+                <h5>4. Pilih mode wiki, hanya guru, grup, atau untuk setiap murid memiliki wiki yang
+                    bisa diedit bersama guru.</h5>
+                <h5>5. Tentukan nama halaman pertama wiki jika berbeda dengan nama wiki, serta isi inisial</h5>
+                <img
+                src="images/5.JPG" />
+                <h5>6. Pilih pilihan kategori grup dan grading jika ada</h5>
+                <img src="images/6.JPG"
+                width="200" />
+                <h5>7. Setelah itu Pilih ”save and display”</h5>
+                <img src="images/7.JPG" />
+                <h5>8. Setelah selesai, maka wiki anda siap untuk diisi dengan informasi yang bisa dibuat
+                    sendiri dengan teks anda. Wiki juga memungkinkan untuk membuat tautan, dan halaman
+                    wiki yang bisa ditandai dengan tanda [ ]</h5>
+                <img src="images/4.JPG" width="200"
+                />
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-icon="info">info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page5">
+            <div data-role="header">
+                <h1>kegiatan blajar 2</h1>
+            </div>
+            <div data-role="content">
+                <textarea></textarea>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-icon="info">info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page6">
+            <div data-role="header">
+                <h1>Video Tutorial</h1>
+            </div>
+            <div data-role="content"></div>
+            <div data-role="footer" data-position="fixed" data-theme="c">
+			<iframe width="320" height="240" src="https://www.youtube.com/embed/sgrib0nO3Gk" frameborder="0" allowfullscreen></iframe>
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page7" data-icon="info">info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="dialog" id="page7">
+            <div data-role="header">
+                <h1>info</h1>
+            </div>
+            <div data-role="content">
+                <img src="images/DSCF1078.JPG" width="200" style="display: block; margin: 0 auto"
+                />
+                <p>Nama: Pramadhana Cahaya Kurnia</p>
+                <p>Nim:  1112045</p>
+                <span>Email : Viper.alpa911@gmail.com</span>
+            </div>
+        </div>
+    </body>
+
+</html>
